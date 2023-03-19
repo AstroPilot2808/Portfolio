@@ -301,3 +301,70 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+/* CSS For Small Screen (Mobiles) */
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(Images/Phone.jpg);
+    }
+    #header img{
+        width: 250px;
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav .fa-solid{
+        font-size: 25px;
+        display: block;
+    }
+    nav ul{
+        background: red;
+        position: fixed;
+        top: 0;
+        /* Width is 200px, so by adding right: -200, the menu will move right 200px and make it hidden */
+        right: -160px;
+        width: 160px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+}
