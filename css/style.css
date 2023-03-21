@@ -316,6 +316,8 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(PhoneBG.jpg);
+        /*To Turn off Parallax Scrolling for tablets and phones due to issues!*/
+        background-attachment: scroll;
     }
     #header img{
         width: 250px;
