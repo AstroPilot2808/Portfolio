@@ -288,6 +288,10 @@ nav ul li a:hover::after{
     margin-right: 15px;
     font-size: 25px;
 }
+.contact-left a{
+    text-decoration: none;
+    color: white;
+}
 contact-right{
     width: 100%;
 }
