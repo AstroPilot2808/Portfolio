@@ -192,12 +192,13 @@ nav ul li a:hover::after{
     padding: 50px 0;
 
 }
-.work-list{
+.work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, minmax(250px, 1fr)); /* Update column count to 3 */
     grid-gap: 40px;
     margin-top: 50px;
-}
+  }
+  
 .work{
     border-radius: 10px;
     position:relative;
