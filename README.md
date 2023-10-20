@@ -1,3 +1,3 @@
 # Portfolio
 
-Simple Portfolio for showcasing my projects.
+Simple Portfolio for showcasing my projects. Check it out: https://ajays.netlify.app/
